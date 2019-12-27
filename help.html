@@ -1,0 +1,916 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Blogsar-help</title>
+ <link rel="shortcut icon"  type="image/x-icon" href="images/favicon (1).ico" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="shortcut icon"  type="image/x-icon" href="images/favicon (1).ico" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!--very important style sheet ends-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-blue.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Old+Standard+TT|Playfair+Display|Sanchez|Merriweather|Playfair+Display+SC|Lobster|
+Metamorphous|Roboto|Bree+Serif|Acme|Raleway|Baloo+Bhai|Arvo|Kosugi|Ruslan+Display|Shadows+Into+Light|Anton|Sawarabi+Mincho|Fredoka+One" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+#asked:hover{
+  background-color: grey;
+
+}
+/*::-webkit-scrollbar { 
+    display: none; }
+    /* Let's get this party started */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(0,0,0);
+    border: 4px solid transparent;
+    background-clip: content-box;   /* THIS IS IMPORTANT */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(25,25,25);
+    
+}
+
+  
+    
+    .verticalLine {
+  border-right: 1.5px solid grey;
+  width: 300px;
+  height: 280px
+}
+
+html {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+/*
+notification button and div css
+*/
+#notifications{
+
+  width:450px;
+  height:auto;
+  top:30px;
+  left:37%;
+
+}
+
+
+.data{
+  max-width:400px;
+  min-width:400px;
+}
+
+h3 {
+        display:block;
+        color:#333; 
+        background:#FFF;
+        font-weight:bold;
+        font-size:13px;    
+        padding:8px;
+        margin:0;
+        border-bottom:solid 1px rgba(100, 100, 100, .30);
+    }
+   
+/** edge broeser detection*/
+	@supports (-ms-ime-align: auto) {
+  .subsBtn2{
+        margin-top:10px;
+        margin-right:-10px;
+  }
+  html {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+}
+
+/* for firefox */
+@document url("https://example.com") { 
+  .subsBtn2 {
+     margin-right:-150px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  div.description,.title {
+    width:63%;
+  }
+  
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1299px) {
+  div.description,.title {
+    width:57%;
+  }
+  #discussion{
+    right:300px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  div.description,.title {
+    width:47%;
+  }
+}
+.blue{
+	display:none;
+}
+
+  
+  @media screen and (max-width: 1000px) {
+
+
+  
+  #hideMenu{
+    display: block;
+  }
+  div.profileDiv{
+  display:none;
+  }
+  #search{
+    display:none;
+    left:350px;
+  top:40px;
+    width:350px;
+  }
+  #search2{
+    display:none;
+    left:350px;
+  top:40px;
+    width:350px;
+  }
+  #search3{
+    display:none;
+    left:350px;
+  top:40px;
+    width:350px;
+  }
+   #searchChoice{
+    display: none;
+    left:350px;
+    margin-top: 41px;
+    width:250px;
+
+  }
+
+  #searchBtn{
+
+    display: block;
+
+  }
+  #searchResult{
+    display: none;
+    left:350px;
+  margin-top: 45px;
+    
+  }
+
+   #searchResult2{
+    display: none;
+    left:350px;
+  margin-top: 45px;
+    
+  }
+
+   #searchResult3{
+    display: none;
+    left:350px;
+  margin-top: 45px;
+    
+  }
+  
+  div.mainPostDiv{
+  right:160px;
+  }
+  
+}  
+    
+    html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
+
+</style>
+
+<script type="text/javascript">
+<!--
+if (screen.width <= 699) {
+document.location = "https://www.blogsar.com/mobile/help.html";
+
+}
+
+//-->
+</script>
+
+<script language=javascript>
+<!--
+if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+   location.replace("https://www.blogsar.com/mobile/help.html");
+}
+-->
+</script>
+<script type="text/javascript">
+
+
+  $(document).ready(function(){
+
+
+  
+     $("#articleChoice").click(function(){
+      $("#forAuthorSearch").hide();
+      $("#forChannelSearch").hide();
+       $("#forArticleSearch").css("display","block");
+       $("#search").show();
+
+       $("#search3").val("");
+       $("#search2").val("");
+
+
+
+          $("#articleChoice").css("background-color","white");
+        $("#channelChoice").css("background-color","");
+       $("#authorChoice").css("background-color","");
+    
+    });
+
+
+     $("#channelChoice").click(function(){
+    
+      $("#forAuthorSearch").hide();
+     $("#forChannelSearch").css("display","block");
+       $("#forArticleSearch").hide();
+       $("#search2").show();
+
+        $("#search3").val("");
+       $("#search").val("");
+
+          $("#articleChoice").css("background-color","");
+        $("#channelChoice").css("background-color","white");
+       $("#authorChoice").css("background-color","");
+    
+    });
+    
+
+
+     $("#authorChoice").click(function(){
+      $("#forAuthorSearch").css("display","block");
+       $("#search3").show();
+      $("#forChannelSearch").hide();
+       $("#forArticleSearch").hide();
+
+        $("#search").val("");
+       $("#search2").val("");
+
+    
+
+          $("#articleChoice").css("background-color","");
+        $("#channelChoice").css("background-color","");
+       $("#authorChoice").css("background-color","white");
+    
+    });
+
+
+    $("#search").click(function(){
+
+        $("#searchResult").show();
+             $("#searchChoice").show();
+
+    });
+
+    $("#search2").click(function(){
+
+        $("#searchResult2").show();
+
+  $("#searchChoice").show();
+    });
+
+    $("#search3").click(function(){
+
+        $("#searchResult3").show();
+  $("#searchChoice").show();
+    });
+
+    $("#page").click(function(){
+   
+      $("#searchChoice").hide();
+      $("#searchResult").hide();
+        $("#searchResult2").hide();
+          $("#searchResult3").hide();
+    
+    });
+
+$("#searchBtn").click(function(){
+  $("#search").toggle();
+   $("#searchChoice").hide();
+    $("#searchResult").hide();
+
+  
+  });
+$("#searchBtn2").click(function(){
+  $("#search2").toggle();
+    $("#searchChoice").hide();
+     $("#searchResult2").hide();
+  
+  });
+$("#searchBtn3").click(function(){
+  $("#search3").toggle();
+    $("#searchChoice").hide();
+     $("#searchResult3").hide();
+  
+  });
+
+
+// for article search code
+$(".sbox").keyup(function(){
+  $(".autocomplete").html(" ");
+  var val = $(this).val();
+
+var dataString = "query="+val;
+
+  $.ajax({
+type: "POST",
+url: "ForHandligAjax.php",
+data: dataString,
+dataType:'json',
+cache: false,
+global:false,
+async:false,
+
+success: function(data)
+       {
+       
+    console.log(data);
+
+          for(var i=0;i<data.length;i++){
+
+      
+
+ $(".autocomplete").html(
+$(".autocomplete").html()+'<li class="list-group-item"  style="height:auto;"><a href="read.php?q='+data[i].title+'" style="color:black">'+data[i].title+'</a></li>'
+  ); 
+ 
+   
+}
+
+     },error:function(data){
+      console.log(data);
+      
+
+     }
+});
+
+});
+
+// for channel search code
+
+
+$(".sbox2").keyup(function(){
+  $(".autocomplete2").html(" ");
+  var val = $(this).val();
+
+var dataString = "query2="+val;
+
+  $.ajax({
+type: "POST",
+url: "ForHandligAjax.php",
+data: dataString,
+cache: false,
+global:false,
+async:false,
+ 
+success: function(data)
+       {
+          data = JSON.parse(data);
+
+          for(var i=0;i<data.length;i++){
+
+      
+
+       
+ $(".autocomplete2").html(
+$(".autocomplete2").html()+'<li class="list-group-item "  style="height:auto;"><a href="otherProfile.php?q='+data[i].user_id+'" style="color:black">'+data[i].channelName+'</a></li>'
+  );
+     
+}
+
+     },error:function(data){
+      console.log(data);
+
+     }
+});
+
+});
+
+
+// for author search code
+
+
+$(".sbox3").keyup(function(){
+  $(".autocomplete3").html(" ");
+  var val = $(this).val();
+
+var dataString = "query3="+val;
+
+  $.ajax({
+type: "POST",
+url: "ForHandligAjax.php",
+data: dataString,
+cache: false,
+ global:false,
+ async:false,
+success: function(data)
+       {
+          data = JSON.parse(data);
+
+          for(var i=0;i<data.length;i++){
+
+      
+
+       
+ $(".autocomplete3").html(
+$(".autocomplete3").html()+'<li class="list-group-item"  style="height:auto;"><a href="otherProfile.php?q='+data[i].channelName+'" style="color:black">'+data[i].authorName+'</a></li>'
+  );
+
+  
+
+}
+
+     },error:function(data){
+      console.log(data);
+
+     }
+});
+
+});
+
+
+
+
+
+//notifications system script
+
+var getnot = function (){
+
+  
+  var val=10;
+
+  var dataString = "geTnoti="+val;
+  $.ajax({
+    type:"POST",
+    url:"ForHandligAjax.php",
+    cache:false,
+      global:false,
+    data:dataString,
+    success:function(data){
+
+      if(data==0){
+        $("#noti_Counter").css("display","none");
+      }else{
+         $("#noti_Counter").css("display","block");
+          $("#noti_Counter").html(data);
+        }
+ 
+    }
+    });
+
+
+}
+setInterval(getnot, 50000); 
+  var start1 = 20;
+  var working1 = false; 
+
+ var stop2 = 1;
+
+    $("#noti_Button").click(function(){
+
+
+start1 = 20;
+working1 = false;
+ stop2= 1;
+
+          var reciever = 0;
+ 
+             $(".Notifications").html("");
+
+             
+          var dataString = "getNotifications="+reciever;
+
+          $.ajax({
+            type:"POST",
+            url:"ForHandligAjax.php",
+            dataType:'json',
+            data:dataString,
+        
+            async:false,
+
+            success:function(data){
+              console.log(data);
+
+if(data.length == 0){
+
+       $(".Notifications").html(
+                    
+                    $(".Notifications").html() + '<p style="font-size:15px;font-family:Merriweather;margin-left:40px">there is not any notification</p>')
+
+}else{
+
+
+              for(var i=0;i<data.length;i++){
+
+
+         
+             $(".Notifications").html(
+                    
+                    $(".Notifications").html() + ''+data[i]+''
+                       
+              )
+
+              }
+            }
+            },
+            error:function(data){
+              console.log(data);
+            }
+
+
+          });
+       
+
+    });
+
+    $("#noti_Button").click(function(){
+
+ var val = 10;
+ var dataString = "notif="+val;
+
+ $.ajax({
+        type:"POST",
+        url:"ForHandligAjax.php",
+        data:dataString,
+        cache:false,
+      
+        async:false,
+        success:function(data){
+          $("#noti_Counter").css("display","none");
+    
+        }
+
+        });
+        
+     });
+
+
+
+
+
+
+     $("#show_more_noti").click(function(e){
+
+   
+e.preventDefault(e);
+
+if(working1==false && stop2>0){
+   
+   working1 = true;
+
+var dataString = "getNotifications="+start1;
+
+    $.ajax({
+type:"POST",
+url:"ForHandligAjax.php",
+data:dataString,
+dataType:'json',
+cache:false,
+async:false,
+success:function(data){
+console.log(data);
+stop2 = data.length;
+
+if(stop2>0){
+
+
+
+              for(var i=0;i<data.length;i++){
+         
+             $(".Notifications").html(
+                    
+                    $(".Notifications").html() + ''+data[i]+''
+                       
+              )
+}
+}else{
+
+    $(".Notifications").html(
+                    
+                    $(".Notifications").html() + '<p style="font-family:Merriweather;font-size:15px;color:red">Notification End</p>'
+                       
+              )
+}
+
+
+start1+=20;
+
+setTimeout(function(){
+  working1 = false;
+});
+
+
+},
+          error:function(data){
+
+            console.log(data);
+
+          }
+
+    });
+
+}
+
+
+    });
+
+
+// claear all notification
+ $("#clear_notification").click(function(e){
+
+e.preventDefault();
+
+var val = 0;
+
+var dataString = "clear_notification="+val;
+ $(".Notifications").html("");
+
+    $.ajax({
+type:"POST",
+url:"ForHandligAjax.php",
+data:dataString,
+dataType:'json',
+cache:false,
+
+success:function(data){
+console.log(data);
+   
+
+},
+error:function(data){
+
+  console.log(data);
+
+
+}
+
+    });
+    
+    });
+    //notification window toggle
+
+
+
+$("#page").click(function(){
+   $("#notifications").hide();
+});
+$("#noti_Button").click(function(){
+     $("#notifications").toggle();
+
+});
+    
+
+});
+
+//notification script end
+
+
+</script>
+
+
+</head>
+
+
+
+<body>
+	
+
+<!-- Navbar -->
+<div class="w3-top">
+	
+ <div class="w3-bar w3-theme-d2 w3-left-align w3-large" style="height:45px;max-height: 100%">
+ 	<span style="position: absolute;"><h4 style="font-family:Fredoka One;color:black;font-size: 25px;margin-left:65px">Blogsar</h4></span>
+ 
+
+    <a href="index.php" id="home" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-none"  title="Home"  style="margin-left:24%"><i class="fa fa-home" style="font-size: 30px"></i></a>
+
+  <a href="personal wall.php" id="PersonalWall" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-none" title="Personal Wall"><i class="fa fa-user " style="font-size: 30px"></i></a>
+  
+
+
+
+ 
+ <div  style="position: relative;height:auto" >
+
+  <button   id="noti_Button" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-none"  title="Updates" style="position: relative;"><i class="fas fa-bell " style="font-size: 30px">
+
+    <img src="images/loading_notification_gif.gif" style="height:14px;width: 14px;position:absolute;z-index: 6446;top:20px;margin-left: -6px;display: none" id="loading_notification">
+
+     <span id="noti_Counter" style="position: absolute;left:45px;top:6px;font-size: 12px;z-index:50px;color:white;background-color: red;padding: 2px;display: none"><b></b></span>
+  </i>
+ 
+  </button>
+
+
+<div id="notifications" class="w3-round w3-margin w3-card w3-white" style="position:fixed;color: black;font-size: 15px;background-color: white;display: none;max-height:600px;min-height: 50px;height:auto;overflow-y:auto;border-bottom: 1px solid black">
+
+ <p style="margin-left: 5px;font-size: 13px;margin-bottom: 5px;position: relative;"><b>Notifications</b> <a href="#" style="position: absolute;right:5px" id="show_more_noti">Show more</a><a href="#" style="position: absolute;right:150px;color: red" id="clear_notification">Clear all</a></p>
+
+<ul class="list-group Notifications" id="notify" style="margin-bottom: 0">
+
+  </ul>
+
+
+</div>
+ </div>
+ <!--THE NOTIFICAIONS DROPDOWN BOX.-->
+
+  <a href="postEditor.php" id ="writePost" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-none" title="Write a Post"><i class="fa fa-pencil-square-o " aria-hidden="true" style="font-size: 30px"></i></a>
+
+     <!--search bar for article search-->
+ <div id="forArticleSearch" style="display:block;">
+     <form autocomplete="off" action="read.php">
+     <button type="submit" id="searchBtn" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-none w3-right" onclick="return empty()" title="Search"  ><i class="fa fa-search " style="font-size: 30px;" ></i></button>
+     
+     <input type="text" id="search" class="form-control  sbox"  style="width:30%;margin-top: 10px;position:absolute;right:70px;float:right;color: #333333;min-width: 300px" placeholder="Search1.." name="q">
+   
+       <ul class="list-group autocomplete" id="searchResult" style="color:black;position: absolute;top:75px;right:66px;width:30%;min-width: 300px;max-height:500px;overflow-x: auto;font-size: 15px" >
+
+       </ul>
+         
+     </form>
+     </div>
+ <div id="searchChoice" style="width:30%;height:30px;background-color: lightgrey;position: absolute;top:44px;right:70px;min-width: 300px;display: none">
+
+
+
+       <span class="btn" id="articleChoice" style="background-color: white;height: 100%;padding: 5px;font-family: Baloo Bhai;position: absolute;top:0;color:black"><b>Articles</b></span>
+       
+       <span class="btn" id="channelChoice" style="height: 100%;position: absolute;top:0;left:80px;padding: 5px;font-family: Baloo Bhai;color:black"><b>Channels</b></span>
+       <span class="btn" id="authorChoice" style="height: 100%;position:absolute;top:0;left:160px;padding: 5px;font-family: Baloo Bhai;color:black"><b>Authors</b></span>
+     </div>
+
+
+<!--seach bar for channel seacrh-->
+ <div id="forChannelSearch" style="display: none" >
+     <form autocomplete="off" action="otherProfile.php">
+     <button type="submit" id="searchBtn2" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-none w3-right" onclick="return empty2()" title="Search2"><i class="fa fa-search " style="font-size: 30px;"></i></button>
+     
+     <input type="text" id="search2" class="form-control  sbox2"  style="width:30%;margin-top:10px;position:absolute;right:70px;float:right;color: #333333;min-width: 300px" placeholder="Search2.." name="q">
+  
+       <ul class="list-group autocomplete2" id="searchResult2" style="color:black;position: absolute;top:75px;right:66px;width:30%;min-width: 300px;max-height:500px;overflow: auto" >
+       </ul>
+         
+     </form>
+
+     </div>
+
+
+ <!--search bar for author search-->
+ <div id="forAuthorSearch" style="display: none">
+     <form autocomplete="off" action="otherProfile.php">
+     <button type="submit" id="searchBtn3" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-none w3-right" onclick="return empty3()" title="Search3"  ><i class="fa fa-search " style="font-size: 30px" ></i></button>
+     
+     <input type="text" id="search3" class="form-control  sbox3"  style="width:30%;margin-top: 10px;position:absolute;right:70px;float:right;color: #333333;min-width: 300px" placeholder="Search3.." name="q">
+  
+       <ul class="list-group autocomplete3" id="searchResult3" style="color:black;position: absolute;top:75px;right:66px;width:30%;min-width: 300px;max-height:500px;overflow: auto" >
+
+       </ul>
+         
+     </form>
+
+     </div>
+ </div>
+</div>
+
+<div style="position: relative;height: 100%;width: 100%;border: 1px solid black" id="page"></div>
+
+
+     
+      <div id="mainDiv" class="w3-container w3-card w3-white w3-round w3-margin" style="height: auto;max-height:100%;min-width:600px;min-height:250px ;position: relative;top:35px;left:15%;width:60%">
+        <div style="height: auto;margin-top:30px;min-height:270px;word-wrap:break-word;position:relative;background-color:#e6e6ff">
+        <p style="position: relative;left: 1-;font-size: 20px;color:pink;top:-30px">Help !!!</p>
+          <div class="well" style="position: relative;width:100%;height:auto;top:-30px">
+
+           <p style="font-size: 23px;font-family:Merriweather">How to use "Blogsar", working of all the icons are given below :-<br>
+       <br>
+        <ul  style="font-size: 17px;font-family:Merriweather">
+          <li>First of all you have to complete sign up process. If you are already logged in then you can skip this step.</li>
+         <br> <li><a href="homeTemplate.php" id="home" class="w3-bar-item w3-button w3-hide-small w3-hover-none"  title="Home"><i class="fa fa-home" style="font-size: 25px"></i></a> This is the home button where you can see articles based on your followed topics.</li>
+         <br> <li><a href="myProfile.php" id="PersonalWall" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-none" title="Personal Wall"><i class="fa fa-user " style="font-size: 25px"></i></a>By clicking this icon you can see your personal details also you can edit your personal information.</li>
+         <br> <li><a href="postEditor.php" id ="writePost" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-none" title="Write a Post"><i class="fa fa-pencil-square-o " aria-hidden="true" style="font-size: 25px"></i></a>By clicking this icon the article editor will be open. Here you can write your articles and you can add description after that you can post your article on "Blogsar".</li> 
+         <br> <li><button type="submit" id="searchBtn" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-none w3-left"></button><i class="fa fa-search " style="font-size: 25px;" ></i>  This is the search button where you can search the articles, the authors and channels.</li>
+         <br> <li><strong>Channel Name:-</strong> Create your best channel name because it will be visible on the top of your article.</li>
+         <br> <li><strong>Author Name:-</strong> Author name will be visible on your every article as a writer.</li>
+		 <br> <li><strong>Author Strength:-</strong>Author strength is a term that describe popularity of author .It will be claculated by your number of subscribers,total article views,total article likes,total article feedbacks and total number of articles.</li>
+		 <br> <li><strong>Article Strength:-</strong>Article strength is a term that describe popularity of articles It will be calculated by number of views, likes and feedback of that perticuler article.</li>
+		 <br> <li><strong>How to Block asking message:-</strong>If any one ask you bad question and you do not want that he/she send you any further message then you can go to discussion, at top right corner of that message there is a three bar menu where block option is listed. By clicking block he/she will not be able to ask you further messages.</li>
+       <br> <li><strong>How to Block feedbacks:-</strong>If any one sends you inaproprite comments as a feedback in your articles and you want to block that person for sending further feedbacks.
+        Go to that particular feedback or any feedback of that author in discussion page. At top right corner there is <b>block feedbacks</b> option listed.Click that option and he/she will not able to send you further feedbacks on your articles.</li>
+		 <br> <li><strong>How to Delete Article:-</strong>Go to personal wall page and click top right three dot button on that perticuler post and delete.</li>
+		 <br> <li><strong>How to Report:-</strong>If you found anything bad and you want to report then click top right three dot button and report to "Blogsar".
+     After you report that article will immediately be disappera from your home feed. Article will be reviewed by our team and if any thing found suspicious than article will be removed.
+   You can see action taken on you reported articles in report history page.</li>
+   <br> <li><strong>What is snoozing:-</strong>In each article, there is a facility called snoozing feedbacks.
+   If you snooze feedbacks than feedback giving facility will be disabled in that article . And no one will be able to give feedback on that article.</li>
+      <br> <li><strong>How to reset forgotten password:-</strong>If you have forgotten your password, than logout and click forgotten password in login page.
+      Where you can reset your password through your registerd email id. </li>
+
+		 <br> <h1><font color="green">Monetization:-</font></h1>
+		  <br>
+		         <li>Must and neccessery condition for Monetize your Publication:-</li>
+		   <br>  <ul>    
+				 <li>1.Publication must have 500 subscribers.</li>
+				 <li>2.Publication must have 30 article published.</li>
+				 <li>2. Author must have 7000+ author strength.</li>
+			  </ul>
+		     
+        </ul>
+           </p>
+      </div>
+
+  <!-- copy right mark of Blogsar-->
+       <p>Blogsar © 2019</p>    
+      </div>
+          </div>
+  
+   </div>
+  
+</div>
+
+<script>
+//discussion div js end
+
+$(document).ready(function(){
+
+$("#check_monetise").click(function(){
+
+$("#monetise_form").show();
+
+});
+
+$("#check_contest").click(function(){
+
+$("#contest_form").show();
+
+});
+
+});
+
+
+
+//for search button
+
+
+function empty(){
+    var x;
+    x = document.getElementById("search").value;
+    if (x == "") {
+        
+        return false;
+    };
+}
+function empty2() {
+    var x;
+    x = document.getElementById("search2").value;
+    if (x == "") {
+        
+         return false;
+    };
+}
+function empty3() {
+    var x;
+    x = document.getElementById("search3").value;
+    if (x == "") {
+        
+        return false;
+    };
+}
+
+   </script>
+
+</body>
+</html>
