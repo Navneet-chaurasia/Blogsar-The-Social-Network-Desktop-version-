@@ -12,3 +12,5 @@ calculating the total number of views and the total number of likes and also oth
 The top article having the highest article strength will be shown on the trending page. Similarly, a rank will be given to all authors based on different factors that will be called Author strength.
 Authors having highest author strength will be shown on the trending page. Also, there is a feature of subscribing authors.
 If you liked any articles or author you can just subscribe to his publication. After subscribing, all the articles of those authors will be shown on your subscription page.
+
+I am uploading the source file of Blogsar(Desktop version) on github so that anyone can take a look into the code.
