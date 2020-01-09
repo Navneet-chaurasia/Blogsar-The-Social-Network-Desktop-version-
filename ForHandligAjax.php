@@ -1,9 +1,5 @@
   <?php
 
-     include ('/home/s1m0m1lnqe21/public_html/Loging.php');
-include ('/home/s1m0m1lnqe21/public_html/database.php');
-include('/home/s1m0m1lnqe21/public_html/PHP Mailer/PHPMailer-5.2-stable/class.phpmailer.php'); 
-include('/home/s1m0m1lnqe21/public_html/PHP Mailer/PHPMailer-5.2-stable/class.smtp.php');
 
 date_default_timezone_set('Asia/Kolkata');
        $time = date("Y-m-d H:i:s");
