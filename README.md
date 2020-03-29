@@ -17,7 +17,7 @@ After publishig this article, it will be visible for all users who follow that p
 Other authors will read those articles and like .
 calculating the total number of views and the total number of likes and also other factors a rank will be given to that article that will be called Article strength.
 
-![Image description](https://github.com/Navneet-chaurasia/Blogsar-The-Social-Network-Desktop-version-/blob/master/blogsar%20Images/Screenshot%20(1).png)
+![Image description](https://github.com/Navneet-chaurasia/Blogsar-The-Social-Network-Desktop-version-/blob/master/blogsar%20Images/Screenshot%20(9).png)
 
 
 The top article having the highest article strength will be shown on the trending page. Similarly, a rank will be given to all authors based on different factors that will be called Author strength.
