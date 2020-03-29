@@ -1,6 +1,10 @@
 # Blogsar-The-Social-Network
 Blogsar is an article sharing social media website where users write and share their articles with the people who are eager to read something new something interesting.
 The mission of this site is to build the community of authors and making the world a better place by spreading knowledge through articles.
+
+![Image description](https://github.com/Navneet-chaurasia/Blogsar-The-Social-Network-Desktop-version-/blob/master/blogsar%20Images/Screenshot%20(1).png)
+
+
 Many people are passionate about writing, and want to write something new and want to become an author. But they can't do that simply because of the lack of promotions.
 Blogsar is the platform where a person can make a huge impact on the internet through his articles. Main vision and mission of Blogsar are that authors can earn money through their articles.
 When user signup into Blogsar he is redirected to his personal wall where he set up his account. By the word set-up, we mean that the user sets his publication as an author because every user in Blogsar is referred to as an author.
@@ -14,3 +18,6 @@ Authors having highest author strength will be shown on the trending page. Also,
 If you liked any articles or author you can just subscribe to his publication. After subscribing, all the articles of those authors will be shown on your subscription page.
 
 I am uploading the source file of Blogsar(Desktop version) on github so that anyone can take a look into the code.
+
+
+
